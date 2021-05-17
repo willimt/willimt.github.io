@@ -259,7 +259,9 @@ a {
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between; 
+  scrollbar-width: none;
+}
   .side-container .nav-head {
     padding: 30px 28px 30px 20px;
     cursor: hand;
@@ -321,7 +323,9 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 30px 0; }
+  padding: 30px 0; 
+  scrollbar-width: none;
+}
   .extra-container .pagination {
     display: flex;
     flex-direction: column; }
@@ -705,3 +709,8 @@ a {
         font-size: 13px;
         font-family: "Montserrat", "Roboto", "Source Sans Pro", "Helvetica", "Arial", "Lora", "source-han-serif-tc", serif;
         padding: 40px 20px 40px 20px; } }
+		
+	.media-object {
+		height:200px !important;
+		width:130px !important;
+	}
